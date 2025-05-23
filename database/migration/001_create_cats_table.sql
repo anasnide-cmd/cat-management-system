@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS cats (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    birth_date DATE,
+    breed VARCHAR(50),
+    color VARCHAR(50),
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
